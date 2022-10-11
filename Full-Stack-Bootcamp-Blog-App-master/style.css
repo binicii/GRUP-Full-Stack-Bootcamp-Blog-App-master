@@ -1,0 +1,35 @@
+* {
+    font-family: 'Lato', sans-serif !important;
+    user-select: none;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.navbarMenu .navbarMenuItems {
+    width: fit-content;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(59, 48, 177);
+}
+
+.navbar-nav li a {
+    color: black;
+}
+
+.nav-item:hover {
+    transition: border-width 0.3s ease;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.253);
+}
+
+.categoryItems .items {
+    background-color: rgb(238, 238, 238);
+    padding: 7px;
+}
